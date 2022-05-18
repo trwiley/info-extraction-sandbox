@@ -1,0 +1,22 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "trwiley", email = "taylor.r.wiley@gmail.com"},
+]
+license-expression = "MIT"
+dependencies = [
+    "spaCy>=3.3.0",
+    "kglab>=0.6.1",
+]
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = ""
+
+[tool.pdm]
+
+[build-system]
+requires = ["pdm-pep517>=0.12.0"]
+build-backend = "pdm.pep517.api"
