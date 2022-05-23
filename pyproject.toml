@@ -7,8 +7,11 @@ authors = [
 ]
 license-expression = "MIT"
 dependencies = [
-    "spaCy>=3.3.0",
+    "spacy==3.2.0",
     "kglab>=0.6.1",
+    "crosslingual-coreference>=0.2.4",
+    "allennlp>=2.9.3",
+    "en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.2.0/en_core_web_sm-3.2.0.tar.gz",
 ]
 requires-python = ">=3.9"
 
